@@ -1,4 +1,3 @@
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome";
+//= require ./css-frameworks
+//= require_tree ./responsive-page
+//= require_tree ./shared

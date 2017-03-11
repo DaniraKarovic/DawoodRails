@@ -1,0 +1,150 @@
+.logo-picture {
+ width: 320px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-top: 35px;
+}
+
+.logo-slika {
+  width: 100%;
+}
+
+.middle {
+  text-align: center;
+}
+.contact-box {
+  padding-top: 40px;
+}
+.naslovni-tekst {
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 20px;
+}
+.contact-picture {
+  width: 100%;
+  height: 500px;
+ background-image: image_url('cvike/liscecvike.jpg');
+ background-size: cover;
+}
+.home-intro {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.brand {
+  width: 50px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+body{
+	width:100%;
+	height:100%;
+	font-family: 'Roboto Condensed', sans-serif;
+  
+
+}
+
+h1,h2,h3 {
+	margin:0 0 35px 0;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	letter-spacing:1px;
+  color: #4C1C17;
+}
+
+p{
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+.footer {
+  background-color: #eee;
+  margin-bottom: 0px;
+}
+#contact{
+	background:white;
+	color: 686868;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+
+
+.social {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.instagram {
+  background-color: #9B6752;
+  color: white;
+  font-size: 40px;
+}
+
+.social .link.etsy {
+  background-color: #FC8939;
+  font-size: 30px;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  font-size: 40px;
+  color: white;
+}
+
+@media (max-width: 766px) {
+  .navigacija {
+     position: relative;
+  }
+  .logo-picture {
+     width: 200px;
+  }
+}
