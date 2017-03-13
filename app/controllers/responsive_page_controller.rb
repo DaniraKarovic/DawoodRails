@@ -10,4 +10,5 @@ class ResponsivePageController < ApplicationController
   def catalog
 
   end
+
 end
